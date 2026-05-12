@@ -1,0 +1,52 @@
+# ML Mini Project - Loan Approval Prediction (M3)
+
+A Machine Learning project focused on **Loan Approval Prediction** using multiple **Boosting Algorithms** and SVC.
+
+---
+
+## 📋 Project Overview
+
+This project predicts whether a loan application will be **Approved** or **Rejected** based on various customer features. The main focus is on implementing and comparing **Boosting Ensemble Techniques** along with Support Vector Classifier.
+
+**Problem Type**: Binary Classification  
+**Dataset**: `loan_approval_dataset.csv`
+
+---
+
+## 🎯 Objective
+
+To build robust classification models using Boosting algorithms and evaluate their performance for loan approval prediction.
+
+---
+
+## ✨ Models Implemented
+
+| Model                    | Type                  | Key Highlight                  |
+|--------------------------|-----------------------|--------------------------------|
+| **AdaBoost**             | Boosting              | Adaptive Boosting              |
+| **Gradient Boosting**    | Boosting              | Sequential error correction    |
+| **XGBoost**              | Boosting (Extreme)    | High performance & speed       |
+| **SVC (SVM Classifier)** | Kernel-based          | Strong on complex boundaries   |
+
+---
+
+## 🛠 Technologies & Libraries
+
+- **Python** 3.8+
+- **Pandas**, **NumPy**
+- **Scikit-learn**
+- **XGBoost**
+- **Matplotlib** & **Seaborn**
+- **Jupyter Notebook**
+
+---
+
+## 📁 Project Structure
+
+```bash
+ML_Mini_Project/
+├── loan_approval - M3/
+│   ├── loan_approval_dataset.csv
+│   └── loan_approval_m3.ipynb
+├── README.md
+└── (requirements.txt)
